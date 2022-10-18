@@ -1,0 +1,41 @@
+.Banner1 {
+  display: flex;
+  max-width: 100%;
+  height: 200px;
+  
+  position: relative;
+  overflow: hidden;
+  background-color: grey;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gethealthy {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size:18px;
+    cursor: pointer;
+    color: rgb(53, 53, 53);
+
+  }
+.gethealthy button{
+    border:none;
+    background-color:transparent;
+    font-weight: bold;
+    color:red;
+    border-radius: 5px;
+    outline-color:red;
+    outline-style: dashed;
+    height:40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gethealthy button p{
+  margin-bottom: 10px;
+  margin-top: 8px;
+}

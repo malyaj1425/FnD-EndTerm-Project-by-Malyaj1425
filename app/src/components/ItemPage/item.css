@@ -1,0 +1,48 @@
+
+.description {
+  font-style: italic;
+  font-size: 15px;
+}
+.pricetag {
+  display: flex;
+  height: 40px;
+}
+.pricetag h4 {
+  font-size: 17px;
+  padding-top: 4px;
+}
+.pricetag h4 strike {
+  color: grey;
+}
+.buy {
+  background-color: rgb(255, 92, 32);
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 3px;
+  font-size: 14px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.buy:hover {
+  transition: 0.5s;
+  background-color: rgb(255, 68, 0);
+  border: 2px solid rgb(0, 0, 0);
+}
+.body {
+  background-color: rgb(233, 233, 233);
+}
+.cardbody {
+  border: none;
+  box-shadow: 6px 6px 5px rgba(128, 128, 128, 0.341);
+}
+#dropdown-basic{
+  margin-left:73%;
+}
+@media screen and (max-width: 720px){
+  #clm{
+    margin-left:10%;
+  }
+  #dropdown-basic{
+    margin-left:0px;
+  }
+}

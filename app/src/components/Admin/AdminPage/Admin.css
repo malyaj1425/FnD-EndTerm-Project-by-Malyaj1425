@@ -1,0 +1,162 @@
+
+.Title{
+    font-weight: bold;
+    font-size: 50px;
+    font-family:monospace;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#4E9F3D;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Titlebox{
+    margin-right: 50%;
+}
+.Container{
+    background-color:#191A19;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+  max-width: 100%;
+}
+.Box1{
+    max-width: 100%;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.Box2{
+    max-width: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.Box21{
+    margin-bottom: 10px;
+}
+.Add{
+    background-color: #D8E9A8;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.Add label{
+    text-align:left;
+}
+form{
+    margin: 0px;
+    width:100%;
+    background-color: transparent;
+}
+form #images{
+    margin-left: 120px;
+}
+.Add h2{
+    font-weight: bold;
+    font-size: 50px;
+    font-family:monospace;
+    background-color: grey;
+    border-top-left-radius: 20px;
+}
+.Add #submitbutton{
+    width: 150px;
+    margin-top: 10px;
+}
+.Update{
+    background-color: #D8E9A8;
+    border-top-right-radius: 20px;
+}
+.Update label{
+    text-align:left;
+}
+
+.Update h2{
+    font-weight: bold;
+    font-size: 50px;
+    font-family:monospace;
+    background-color: grey;
+    border-top-right-radius: 20px;
+}
+.Update #submitbutton{
+    width: 150px;
+    margin-top: 10px;
+}
+.Remove{
+    background-color: #D8E9A8;
+    border-bottom-right-radius: 20px;
+    height:375px;
+}
+.Remove label{
+    text-align:left;
+}
+
+.Remove h2{
+    font-weight: bold;
+    font-size: 50px;
+    font-family:monospace;
+    background-color: grey;
+}
+.Remove #submitbutton{
+    width: 150px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1280px){
+    .Container{
+        display:block;
+    }
+    .Title{
+        font-size: 20px;
+    }
+    .Add{
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+    }
+    .Add h2{
+        border-top-right-radius: 20px;
+    }
+    .Add #submitbutton{
+        width: 150px;
+        margin-top: 10px;
+        margin-left:0px;
+    }
+    .Update #submitbutton{
+        width: 150px;
+        margin-top: 10px;
+        margin-left:0px;
+    }
+    .Update{
+
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        margin-top: 10px;
+    }
+    .Update h2{
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    .Remove #submitbutton{
+        width: 150px;
+        margin-top: 10px;
+        margin-left:0px;
+    }
+    .Remove{
+
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        margin-top: 10px;
+    }
+    .Remove h2{
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    form #images{
+        margin-left: 0px;
+    }
+}
