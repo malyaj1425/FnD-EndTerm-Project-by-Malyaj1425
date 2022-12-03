@@ -46,7 +46,7 @@ const Layout = ({size}) => {
     <>
     <Navbar collapseOnSelect expand="lg" sticky="top" id="navbars">
       <Container>
-        <Navbar.Brand href="" onClick={home} id="brand">Falkreath's Inn</Navbar.Brand>
+        <Navbar.Brand href="" onClick={home} id="brand">Falkearth's Inn</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
